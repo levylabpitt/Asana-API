@@ -1,0 +1,22 @@
+Asana - 
+Auth_URL: https://app.asana.com/-/oauth_authorize?response_type=code&client_id=1108428692000476&redirect_uri=https%3A%2F%2Fapp.asana.com%2Fapi%2F1.0&state=<STATE_PARAM>
+Access Token:
+Refresh Token:
+Auth Code:
+Redirect URI: https://app.asana.com/api/1.0
+Client ID: 1108428692000476
+Client Secret: 803bdca1138fccb00921b8f346728904
+Token Endpoint: https://app.asana.com/-/oauth_token/
+Response Type: 									//this is the authorization_code or refresh_token, depending on what is being submitted.
+
+OneNote - 
+Auth_URL: https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=e084995a-f38f-442c-a825-de4ec4043537&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&response_mode=form_post&scope=User.ReadWrite.All%20offline_access%20Notes.Create%20Notes.ReadWrite.All
+Access Token:
+Refresh Token:
+Auth Code:
+Redirect URI:https://login.live.com/oauth20_desktop.srf
+Client ID: e084995a-f38f-442c-a825-de4ec4043537
+Client Secret: ++8j+ff@J43pJtOhmhHaliDsl1IPaX7h
+Token Endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+Response Type:
+Scope: User.ReadWrite.All%20offline_access%20Notes.Create%20Notes.ReadWrite.All
