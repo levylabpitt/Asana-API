@@ -12,9 +12,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Authenticate.vi" Type="VI" URL="../Authenticate.vi"/>
-		<Item Name="Asana.lvclass" Type="LVClass" URL="../Asana/Asana.lvclass"/>
 		<Item Name="OAuth.lvclass" Type="LVClass" URL="../OAuth/OAuth.lvclass"/>
-		<Item Name="OneNote.lvclass" Type="LVClass" URL="../OneNote/OneNote.lvclass"/>
+		<Item Name="scope_needed.ctl" Type="VI" URL="../../LevyLab OAuth/scope_needed.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
