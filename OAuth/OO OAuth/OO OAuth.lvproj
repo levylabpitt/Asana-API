@@ -13,7 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Authenticate.vi" Type="VI" URL="../Authenticate.vi"/>
 		<Item Name="OAuth.lvclass" Type="LVClass" URL="../OAuth/OAuth.lvclass"/>
-		<Item Name="scope_needed.ctl" Type="VI" URL="../../LevyLab OAuth/scope_needed.ctl"/>
+		<Item Name="scope_needed.ctl" Type="VI" URL="../scope_needed.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -63,6 +63,7 @@
 			</Item>
 			<Item Name="Input_Auth_Code.vi" Type="VI" URL="../../LevyLab OAuth/Input_Auth_Code.vi"/>
 			<Item Name="User_Get_Auth_Code.vi" Type="VI" URL="../../LevyLab OAuth/User_Get_Auth_Code.vi"/>
+			<Item Name="scope_needed.ctl" Type="VI" URL="../../LevyLab OAuth/scope_needed.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
