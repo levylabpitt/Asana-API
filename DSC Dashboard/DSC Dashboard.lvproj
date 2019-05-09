@@ -74,7 +74,6 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -106,7 +105,6 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -125,7 +123,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -134,13 +131,12 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="App_Auth_handler.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/App_Auth_handler.vi"/>
-			<Item Name="Asana Oauth.vi" Type="VI" URL="../../../Downloads/LabVIEW/Actual Stuff/OAuth/LevyLab OAuth/Asana Oauth.vi"/>
-			<Item Name="Get_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Get_Auth_Code.vi"/>
-			<Item Name="read_access_codes_from_file.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/read_access_codes_from_file.vi"/>
-			<Item Name="Refresh Access Codes.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Refresh Access Codes.vi"/>
-			<Item Name="Setup_Authentication.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Setup_Authentication.vi"/>
-			<Item Name="write_access_codes_to_file.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/write_access_codes_to_file.vi"/>
+			<Item Name="Asana.lvclass" Type="LVClass" URL="../../OAuth/OO OAuth/Asana/Asana.lvclass"/>
+			<Item Name="Authenticate.vi" Type="VI" URL="../../OAuth/OO OAuth/Authenticate.vi"/>
+			<Item Name="Input_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Input_Auth_Code.vi"/>
+			<Item Name="OAuth.lvclass" Type="LVClass" URL="../../OAuth/OO OAuth/OAuth/OAuth.lvclass"/>
+			<Item Name="OneNote.lvclass" Type="LVClass" URL="../../OAuth/OO OAuth/OneNote/OneNote.lvclass"/>
+			<Item Name="User_Get_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/User_Get_Auth_Code.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
