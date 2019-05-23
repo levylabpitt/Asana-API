@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Authentication_Header_Handler.vi" Type="VI" URL="../Authentication_Header_Handler.vi"/>
 		<Item Name="DSC Dashboard.vi" Type="VI" URL="../DSC Dashboard.vi"/>
 		<Item Name="GetDSCValues.vi" Type="VI" URL="../GetDSCValues.vi">
 			<Property Name="ws.buffered" Type="Bool">true</Property>
