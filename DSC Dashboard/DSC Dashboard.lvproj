@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,26 +11,28 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Authentication_Header_Handler.vi" Type="VI" URL="../Authentication_Header_Handler.vi"/>
-		<Item Name="DSC Dashboard.vi" Type="VI" URL="../DSC Dashboard.vi"/>
-		<Item Name="Get_DSC_Vals.vi" Type="VI" URL="../Get_DSC_Vals.vi"/>
-		<Item Name="GetDSCValues.vi" Type="VI" URL="../GetDSCValues.vi">
-			<Property Name="ws.buffered" Type="Bool">true</Property>
-			<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
-			<Property Name="ws.keepInMemory" Type="Bool">true</Property>
-			<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
-			<Property Name="ws.method" Type="Int">1</Property>
-			<Property Name="ws.outputFormat" Type="Int">2</Property>
-			<Property Name="ws.outputType" Type="Int">1</Property>
-			<Property Name="ws.permissions" Type="Str"></Property>
-			<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
-			<Property Name="ws.type" Type="Int">1</Property>
-			<Property Name="ws.uri" Type="Str"></Property>
-			<Property Name="ws.useHeaders" Type="Bool">true</Property>
-			<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+		<Item Name="Sub-VIs" Type="Folder">
+			<Item Name="Authentication_Header_Handler.vi" Type="VI" URL="../Authentication_Header_Handler.vi"/>
+			<Item Name="Get_DSC_Vals.vi" Type="VI" URL="../Get_DSC_Vals.vi"/>
+			<Item Name="Initialize_DSC.vi" Type="VI" URL="../Initialize_DSC.vi"/>
+			<Item Name="GetDSCValues (deprecated).vi" Type="VI" URL="../GetDSCValues (deprecated).vi">
+				<Property Name="ws.buffered" Type="Bool">true</Property>
+				<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+				<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+				<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+				<Property Name="ws.method" Type="Int">1</Property>
+				<Property Name="ws.outputFormat" Type="Int">2</Property>
+				<Property Name="ws.outputType" Type="Int">1</Property>
+				<Property Name="ws.permissions" Type="Str"></Property>
+				<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+				<Property Name="ws.type" Type="Int">1</Property>
+				<Property Name="ws.uri" Type="Str"></Property>
+				<Property Name="ws.useHeaders" Type="Bool">true</Property>
+				<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Shared_Variable_Popup.vi" Type="VI" URL="../Shared_Variable_Popup.vi"/>
 		</Item>
-		<Item Name="Initialize_DSC.vi" Type="VI" URL="../Initialize_DSC.vi"/>
-		<Item Name="Shared_Variable_Popup.vi" Type="VI" URL="../Shared_Variable_Popup.vi"/>
+		<Item Name="DSC Dashboard.vi" Type="VI" URL="../DSC Dashboard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -62,7 +65,8 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -101,7 +105,7 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
