@@ -111,6 +111,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
 			</Item>
 			<Item Name="Authenticate.vi" Type="VI" URL="../../OAuth/OO OAuth/Authenticate.vi"/>
 			<Item Name="Input_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Input_Auth_Code.vi"/>
