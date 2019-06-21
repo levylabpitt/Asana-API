@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,13 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Asana Authentication.vi" Type="VI" URL="../Asana Authentication.vi"/>
-		<Item Name="Create Project.vi" Type="VI" URL="../Create Project.vi"/>
 		<Item Name="Create Task.vi" Type="VI" URL="../Create Task.vi"/>
-		<Item Name="Get Project Members.vi" Type="VI" URL="../Get Project Members.vi"/>
+		<Item Name="Create Project.vi" Type="VI" URL="../Create Project.vi"/>
+		<Item Name="Get Teams.vi" Type="VI" URL="../Get Teams.vi"/>
+		<Item Name="Get Teams from User.vi" Type="VI" URL="../Get Teams from User.vi"/>
 		<Item Name="Get Projects.vi" Type="VI" URL="../Get Projects.vi"/>
-		<Item Name="Get Request example.vi" Type="VI" URL="../Get Request example.vi"/>
+		<Item Name="Get Project Members.vi" Type="VI" URL="../Get Project Members.vi"/>
 		<Item Name="Get Tasks.vi" Type="VI" URL="../Get Tasks.vi"/>
 		<Item Name="Post Status Update.vi" Type="VI" URL="../Post Status Update.vi"/>
+		<Item Name="Get Request example.vi" Type="VI" URL="../Get Request example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
