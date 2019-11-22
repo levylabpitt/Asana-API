@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Asana.lvclass" Type="LVClass" URL="../../../levylab_expt_transport/src/Control Experiment/subVIs/Asana/Asana.lvclass"/>
+		<Item Name="Asana.lvclass" Type="LVClass" URL="../Asana.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -69,12 +69,12 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Authenticate.vi" Type="VI" URL="../../OAuth/OO OAuth/Authenticate.vi"/>
-			<Item Name="Authentication_Header_Handler.vi" Type="VI" URL="../../DSC Dashboard/Authentication_Header_Handler.vi"/>
-			<Item Name="Input_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/Input_Auth_Code.vi"/>
-			<Item Name="OAuth.lvclass" Type="LVClass" URL="../../OAuth/OO OAuth/OAuth/OAuth.lvclass"/>
-			<Item Name="scope_needed.ctl" Type="VI" URL="../../OAuth/OO OAuth/scope_needed.ctl"/>
-			<Item Name="User_Get_Auth_Code.vi" Type="VI" URL="../../OAuth/LevyLab OAuth/User_Get_Auth_Code.vi"/>
+			<Item Name="Authenticate.vi" Type="VI" URL="../../../OAuth/OO OAuth/Authenticate.vi"/>
+			<Item Name="Authentication_Header_Handler.vi" Type="VI" URL="../../../DSC Dashboard/Authentication_Header_Handler.vi"/>
+			<Item Name="Input_Auth_Code.vi" Type="VI" URL="../../../OAuth/LevyLab OAuth/Input_Auth_Code.vi"/>
+			<Item Name="OAuth.lvclass" Type="LVClass" URL="../../../OAuth/OO OAuth/OAuth/OAuth.lvclass"/>
+			<Item Name="scope_needed.ctl" Type="VI" URL="../../../OAuth/OO OAuth/scope_needed.ctl"/>
+			<Item Name="User_Get_Auth_Code.vi" Type="VI" URL="../../../OAuth/LevyLab OAuth/User_Get_Auth_Code.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
